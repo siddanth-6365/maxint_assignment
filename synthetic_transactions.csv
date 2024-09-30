@@ -1,0 +1,101 @@
+id,user_id,date,category,amount,description
+1,1,2023-10-15,Utilities,-66.73,Water Bill
+2,1,2024-08-08,Education,-321.3,Online Course
+3,1,2023-09-30,Salary,3591.92,Freelance Payment
+4,1,2023-02-06,Groceries,-195.52,Organic Market
+5,1,2023-02-13,Transportation,-142.31,Gasoline
+6,1,2024-06-17,Education,-679.04,Online Course
+7,1,2023-01-17,Dining,-39.35,Cafe
+8,1,2023-06-17,Utilities,-166.68,Internet Bill
+9,1,2024-04-10,Rent,-1673.0,Monthly Rent
+10,1,2023-04-30,Transportation,-128.1,Monthly Metro Pass
+11,1,2024-08-02,Education,-350.98,Online Course
+12,1,2024-02-25,Utilities,-189.7,Gas Bill
+13,1,2024-03-02,Education,-317.67,Online Course
+14,1,2024-01-07,Rent,-1172.67,Monthly Rent
+15,1,2024-02-15,Rent,-1987.2,Monthly Rent
+16,1,2023-08-08,Education,-577.7,Books Purchase
+17,1,2024-09-16,Entertainment,-193.0,Theater tickets
+18,1,2023-07-18,Groceries,-249.78,Organic Market
+19,1,2023-08-31,Transportation,-51.15,Taxi Ride
+20,1,2023-04-29,Healthcare,-254.81,Doctor Appointment
+21,1,2024-08-15,Miscellaneous,-144.37,Gift
+22,1,2023-12-04,Salary,3909.82,Bonus
+23,1,2023-03-24,Entertainment,-110.86,Theater tickets
+24,1,2024-06-30,Groceries,-287.09,Organic Market
+25,1,2023-06-04,Transportation,-115.95,Monthly Metro Pass
+26,1,2024-09-04,Miscellaneous,-133.86,Charity Donation
+27,1,2023-10-08,Rent,-1453.58,Monthly Rent
+28,1,2023-04-26,Groceries,-261.31,Organic Market
+29,1,2023-01-10,Salary,3727.04,Bonus
+30,1,2024-09-11,Groceries,-158.74,Supermarket
+31,1,2024-05-10,Utilities,-159.32,Electricity Bill
+32,1,2023-02-16,Salary,4063.16,Freelance Payment
+33,1,2023-11-21,Education,-161.8,Books Purchase
+34,1,2023-04-08,Rent,-1323.44,Monthly Rent
+35,1,2023-10-22,Entertainment,-168.9,Theater tickets
+36,1,2024-08-28,Healthcare,-24.09,Doctor Appointment
+37,1,2023-06-06,Education,-955.72,Books Purchase
+38,1,2023-06-26,Rent,-1733.76,Monthly Rent
+39,1,2024-09-18,Utilities,-65.8,Internet Bill
+40,1,2024-09-03,Rent,-1060.9,Monthly Rent
+41,1,2024-08-26,Utilities,-64.1,Gas Bill
+42,1,2024-06-12,Salary,4427.27,Freelance Payment
+43,1,2023-06-14,Transportation,-131.6,Gasoline
+44,1,2024-07-07,Education,-932.49,Tuition Fee
+45,1,2024-05-20,Education,-775.58,Online Course
+46,1,2023-02-18,Utilities,-85.66,Electricity Bill
+47,1,2023-11-21,Healthcare,-372.21,Health Insurance
+48,1,2024-07-03,Dining,-75.01,Cafe
+49,1,2023-10-01,Healthcare,-352.63,Health Insurance
+50,1,2024-06-10,Entertainment,-43.02,Streaming Subscription
+51,1,2024-09-04,Salary,3327.63,Freelance Payment
+52,1,2024-02-17,Salary,4599.56,Bonus
+53,1,2023-07-19,Miscellaneous,-236.99,Gift
+54,1,2023-09-12,Transportation,-149.0,Gasoline
+55,1,2024-05-25,Transportation,-90.7,Gasoline
+56,1,2023-12-01,Groceries,-283.45,Supermarket
+57,1,2024-06-27,Salary,2913.63,Freelance Payment
+58,1,2024-01-22,Miscellaneous,-69.1,Gift
+59,1,2023-01-05,Salary,3984.31,Freelance Payment
+60,1,2023-01-16,Transportation,-89.33,Monthly Metro Pass
+61,1,2024-01-18,Transportation,-88.8,Taxi Ride
+62,1,2023-02-08,Education,-666.77,Tuition Fee
+63,1,2024-03-16,Transportation,-37.69,Gasoline
+64,1,2023-10-06,Education,-750.96,Online Course
+65,1,2023-05-16,Utilities,-131.36,Gas Bill
+66,1,2024-02-19,Miscellaneous,-65.5,Other Expenses
+67,1,2023-06-23,Groceries,-223.27,Weekly grocery shopping
+68,1,2023-05-12,Rent,-1753.56,Monthly Rent
+69,1,2024-07-14,Groceries,-252.69,Weekly grocery shopping
+70,1,2023-01-07,Transportation,-62.38,Monthly Metro Pass
+71,1,2023-09-12,Rent,-1923.09,Monthly Rent
+72,1,2023-06-09,Transportation,-88.94,Gasoline
+73,1,2024-04-02,Entertainment,-162.73,Theater tickets
+74,1,2023-11-24,Transportation,-35.46,Gasoline
+75,1,2024-03-06,Groceries,-151.09,Supermarket
+76,1,2024-06-21,Utilities,-112.77,Gas Bill
+77,1,2024-05-30,Rent,-1512.24,Monthly Rent
+78,1,2023-11-12,Dining,-46.81,Cafe
+79,1,2024-04-06,Transportation,-73.12,Gasoline
+80,1,2024-03-04,Dining,-33.02,Fast Food
+81,1,2023-09-11,Entertainment,-106.75,Concert tickets
+82,1,2023-05-07,Rent,-1298.64,Monthly Rent
+83,1,2023-04-01,Salary,4485.09,Monthly Salary
+84,1,2024-09-05,Rent,-1923.59,Monthly Rent
+85,1,2024-01-28,Salary,3172.64,Bonus
+86,1,2024-07-19,Dining,-86.66,Cafe
+87,1,2024-01-23,Utilities,-143.46,Internet Bill
+88,1,2024-09-10,Entertainment,-139.42,Theater tickets
+89,1,2024-08-12,Transportation,-64.13,Monthly Metro Pass
+90,1,2023-11-12,Utilities,-186.9,Water Bill
+91,1,2023-10-10,Transportation,-147.33,Gasoline
+92,1,2024-08-11,Miscellaneous,-73.25,Other Expenses
+93,1,2024-08-17,Groceries,-283.47,Weekly grocery shopping
+94,1,2023-06-02,Education,-754.18,Books Purchase
+95,1,2023-08-22,Groceries,-185.23,Organic Market
+96,1,2023-10-17,Entertainment,-185.45,Theater tickets
+97,1,2023-04-25,Groceries,-103.23,Supermarket
+98,1,2024-05-08,Healthcare,-394.64,Health Insurance
+99,1,2023-02-11,Utilities,-95.38,Water Bill
+100,1,2023-08-06,Entertainment,-65.48,Concert tickets

@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+numpy==1.24.3    # Add this specific version
+flask
+SQLAlchemy
+psycopg2-binary
+prophet
