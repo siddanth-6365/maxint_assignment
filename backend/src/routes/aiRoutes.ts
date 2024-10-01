@@ -5,7 +5,7 @@ import { Request, Response } from "express";
 
 const router = express.Router();
 
-// Endpoint for Spending Forecast
+// endpoint for spending Forecast
 router.post("/forecast", async (req: Request, res: Response): Promise<void> => {
   const userId = req.body.userId;
   if (!userId || isNaN(userId)) {
@@ -36,7 +36,7 @@ router.post("/forecast", async (req: Request, res: Response): Promise<void> => {
   }
 });
 
-// Endpoint for Anomaly Detection
+// endpoint for anomaly Detection
 router.post(
   "/anomalies",
   async (req: Request, res: Response): Promise<void> => {

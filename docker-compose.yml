@@ -9,10 +9,10 @@ services:
       - DATABASE_URL=${DATABASE_URL}
       - AI_SERVICE_URL=http://ai-service:5001
     volumes:
-      - "./backend:/app"  # Mount the backend code
-      - "/app/node_modules"  # Ensure node_modules is handled properly
-      - "./backend/dist:/app/dist"  # Mount the dist folder for real-time updates
-    command: npm run start # Make sure you're starting the app correctly
+      - "./backend:/app"
+      - "/app/node_modules"
+      - "./backend/dist:/app/dist"
+    command: npm run start
     depends_on:
       - ai-service
     networks:
@@ -25,9 +25,9 @@ services:
     environment:
       - DATABASE_URL=${DATABASE_URL}
     volumes:
-      - "./ai:/app"  # Mount the AI service code
-      - /app/__pycache__ # Exclude Python cache files
-    command: python app.py  # Ensure this is the right entry command for your service
+      - "./ai:/app"
+      - /app/__pycache__
+    command: python app.py
     networks:
       - app-network
 
@@ -41,11 +41,11 @@ services:
       - NEXT_PUBLIC_BACKEND_URL=${NEXT_PUBLIC_BACKEND_URL}
       - AI_SERVICE_URL=http://ai-service:5001
     volumes:
-      - "./frontend:/app"  # Mount the frontend code
-      - "/app/node_modules"  # Ensure node_modules is handled properly
-      - "./frontend/.next:/app/.next"  # Mount the .next folder for real-time updates
-      - "./frontend/public:/app/public" 
-    command: npm run dev # Ensure you're running the development mode for real-time updates
+      - "./frontend:/app"
+      - "/app/node_modules"
+      - "./frontend/.next:/app/.next"
+      - "./frontend/public:/app/public"
+    command: npm run dev
     depends_on:
       - backend
     networks:

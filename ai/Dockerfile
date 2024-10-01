@@ -1,5 +1,3 @@
-# ai/Dockerfile
-
 FROM python:3.9-slim
 
 # Install system dependencies including gcc, g++, and make
@@ -16,10 +14,8 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
-# Upgrade pip first
 RUN pip install --upgrade pip
 
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .

@@ -2,7 +2,7 @@ import csv
 import random
 from datetime import datetime, timedelta
 
-# Define categories and descriptions
+
 categories = {
     'Groceries': ['Weekly grocery shopping', 'Supermarket', 'Organic Market'],
     'Utilities': ['Electricity Bill', 'Water Bill', 'Internet Bill', 'Gas Bill'],
@@ -16,18 +16,17 @@ categories = {
     'Miscellaneous': ['Gift', 'Charity Donation', 'Other Expenses']
 }
 
-# Parameters
-num_transactions = 100  # Total number of transactions
+
+num_transactions = 100  
 start_date = datetime(2023, 1, 1)
 user_id = 1
 
-# Function to generate random date
+# this is an function to generate random date
 def random_date(start, end):
     delta = end - start
     random_days = random.randrange(delta.days)
     return start + timedelta(days=random_days)
 
-# Open CSV file for writing
 with open('synthetic_transactions.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     # Write header
@@ -63,11 +62,9 @@ with open('synthetic_transactions.csv', mode='w', newline='') as file:
         else:
             amount = round(-random.uniform(10, 300), 2)
         
-        # For income categories like Salary, ensure amount is positive
         if category in ['Salary']:
             amount = abs(amount)
         
-        # Write the row
         writer.writerow([txn_id, user_id, date, category, amount, description])
 
 print("Synthetic transactions.csv generated successfully.")
